@@ -28,10 +28,10 @@ public class FulibSolution
       String runIndex = System.getenv("RunIndex");
       String tool = System.getenv("Tool");
 
-      doTransform(model, modelPath, runIndex, tool);
+      doTransform(model, modelPath, runIndex, tool, true);
    }
 
-   public static BDD doTransform(String myModel, String modelPath, String runIndex, String tool) throws IOException
+   public static BDD doTransform(String myModel, String modelPath, String runIndex, String tool, boolean doSave) throws IOException
    {
       model = myModel;
 
@@ -86,7 +86,9 @@ public class FulibSolution
 
       report(startTime, model, "Run", runIndex, tool);
 
-      saveModel(bdd);
+      if (doSave) {
+         saveModel(bdd);
+      }
 
       return bdd;
    }
@@ -293,7 +295,7 @@ public class FulibSolution
       }
    }
 
-   private static long report(long startTime, String model, String phase, String runIndex, String tool)
+   public static long report(long startTime, String model, String phase, String runIndex, String tool)
    {
       long diffTime = System.nanoTime() - startTime;
       System.out.println(String.format("%s;%s;%s;%s;Time;%s;%s", tool, model, runIndex, phase, Long.toString(diffTime), numberOfBDDNodes));

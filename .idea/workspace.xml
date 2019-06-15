@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9335fc0b-c8ac-42ef-8b24-06e2c1718dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/solution.ini" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../config/config.json" afterDir="false" />
@@ -9,9 +10,13 @@
       <change beforePath="$PROJECT_DIR$/../EMFSolutionATL/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../EMFSolutionATL/solution.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EMFSolutionATL/src/ttc2019/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EMFSolutionATL/src/ttc2019/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EMFSolutionATLGraph/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../EMFSolutionATLGraph/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Output.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/output.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/GeneratedI4O2Seed42.ttmodel.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fulib/tables/FulibTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fulib/tables/FulibTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java" afterDir="false" />
     </list>
@@ -57,6 +62,18 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ttc19fulibsolution" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ttc19fulibsolution" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ttc19fulibsolution" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -68,11 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="159" lean-forward="true" selection-start-line="128" selection-end-line="159" />
+            <state relative-caret-position="346">
+              <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,22 +100,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fulib/tables/FulibTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="146" column="23" lean-forward="true" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+            <state relative-caret-position="357">
+              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/GeneratedI4O2Seed42.ttmodel">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -106,23 +139,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fulib/fulibTables/1.0.1-SNAPSHOT/f6421d0301c6ae9b2e1761bba86f692d54bb457b/fulibTables-1.0.1-SNAPSHOT-sources.jar!/org/fulib/tables/ObjectTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="272" column="15" selection-start-line="272" selection-start-column="15" selection-end-line="272" selection-end-column="15" />
-              <folding>
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,29 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../output/output.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="386">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -177,12 +176,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\zuend\.gradle\wrapper\dists\gradle-4.8-all\41c9mvq2w0645xx6nsenaerjl\gradle-4.8" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\zuend\.gradle\wrapper\dists\gradle-4.8-bin\divx0s2uj4thofgytb7gf9fsi\gradle-4.8" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -372,6 +371,10 @@
                 <option name="name" value="shadowJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'ttc19fulibsolution'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -383,9 +386,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6238136325697" />
+        <entry key="$PROJECT_DIR$" value="6238302762913" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1579315169" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="575338247" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1224743904" />
       </map>
@@ -564,11 +567,13 @@
         <option value="$PROJECT_DIR$/src/test/java/BasicScenario.java" />
         <option value="$PROJECT_DIR$/solution.ini" />
         <option value="$PROJECT_DIR$/../../config/config.json" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java" />
         <option value="$PROJECT_DIR$/models/GeneratedI4O2Seed42.ttmodel" />
         <option value="$PROJECT_DIR$/src/main/java/org/fulib/tables/FulibTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -671,7 +676,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="C:/ProgrammeAlbert/android-sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560603397442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560620623902" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../expected-results/README.md" />
@@ -681,8 +686,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zuend\IdeaProjects\ttc2019-tt2bdd\solutions\FulibSolution\libs" />
       <recent name="C:\Users\zuend\IdeaProjects\ttc2019-tt2bdd\solutions\FulibSolution" />
+      <recent name="C:\Users\zuend\IdeaProjects\ttc2019-tt2bdd\solutions\FulibSolution\libs" />
       <recent name="C:\Users\zuend\IdeaProjects\ttc2019-tt2bdd\solutions\FulibSolution\models" />
     </key>
   </component>
@@ -698,7 +703,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicScenario.testTables">
+  <component name="RunManager" selected="Gradle.FulibSolution [test]">
     <configuration name="BasicScenario.testBasic" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="ttc19fulibsolution_test" />
       <extension name="coverage">
@@ -712,6 +717,40 @@
       <option name="METHOD_NAME" value="testBasic" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FulibSolution [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="BasicScenario.testRunGeneratedModels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ttc19fulibsolution_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fulib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fulib" />
+      <option name="MAIN_CLASS_NAME" value="fulib.BasicScenario" />
+      <option name="METHOD_NAME" value="testRunGeneratedModels" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -735,9 +774,13 @@
     <list>
       <item itemvalue="Android JUnit.BasicScenario.testBasic" />
       <item itemvalue="JUnit.BasicScenario.testTables" />
+      <item itemvalue="Gradle.FulibSolution [test]" />
+      <item itemvalue="JUnit.BasicScenario.testRunGeneratedModels" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicScenario.testRunGeneratedModels" />
+        <item itemvalue="Gradle.FulibSolution [test]" />
         <item itemvalue="JUnit.BasicScenario.testTables" />
         <item itemvalue="Android JUnit.BasicScenario.testBasic" />
       </list>
@@ -760,35 +803,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicScenario_testTables - 2019.06.13 at 21h 56m 52s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="BasicScenario_testRunGeneratedModels - 2019.06.15 at 18h 51m 18s.xml">
+      <configuration name="BasicScenario.testRunGeneratedModels" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.13 at 21h 59m 26s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="BasicScenario_testRunGeneratedModels - 2019.06.15 at 18h 51m 51s.xml">
+      <configuration name="BasicScenario.testRunGeneratedModels" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.14 at 13h 21m 21s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="BasicScenario_testRunGeneratedModels - 2019.06.15 at 18h 55m 37s.xml">
+      <configuration name="BasicScenario.testRunGeneratedModels" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 08m 16s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 18h 55m 54s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 09m 54s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 18h 56m 46s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 10m 28s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 18h 57m 14s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 11m 27s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 18h 57m 54s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 13m 52s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 18h 58m 14s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 14m 00s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 19h 34m 16s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BasicScenario_testTables - 2019.06.15 at 12h 14m 40s.xml">
-      <configuration name="BasicScenario.testTables" configurationId="JUnit" />
+    <history-entry file="FulibSolution_[test] - 2019.06.15 at 19h 35m 15s.xml">
+      <configuration name="FulibSolution [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -800,13 +843,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4964467" weight="0.20735608" />
-      <window_info x="0" y="0" width="593" height="1255" id="Documentation" order="6" sideWeight="0.5018587" side_tool="true" weight="0.23101392" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4964467" visible="true" weight="0.20735608" />
+      <window_info x="0" y="0" width="593" height="1255" id="Documentation" order="6" sideWeight="0.5035533" side_tool="true" weight="0.2771855" />
       <window_info id="Structure" order="7" sideWeight="0.5035533" side_tool="true" weight="0.23880596" />
-      <window_info active="true" id="Debug" order="8" sideWeight="0.4964467" visible="true" weight="0.2771855" />
-      <window_info id="Gradle" order="9" weight="0.24890657" />
+      <window_info id="Run" order="8" weight="0.37206823" />
+      <window_info id="Debug" order="9" sideWeight="0.4964467" weight="0.40831557" />
+      <window_info id="Gradle" order="10" weight="0.24840085" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.39593908" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32342008" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.56649745" />
       <window_info anchor="bottom" id="Tool Output" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
@@ -814,10 +858,9 @@
       <window_info anchor="bottom" id="Messages" order="6" weight="0.328934" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Maven Projects" order="2" />
@@ -1058,13 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fulib/fulibTables/1.0.1-SNAPSHOT/f6421d0301c6ae9b2e1761bba86f692d54bb457b/fulibTables-1.0.1-SNAPSHOT-sources.jar!/org/fulib/tables/ObjectTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1076,13 +1112,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java">
+    <entry file="file://$PROJECT_DIR$/RuntimeResults.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/GeneratedI4O2Seed42.ttmodel">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1093,32 +1129,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/GeneratedI4O2Seed42.ttmodel">
+    <entry file="file://$PROJECT_DIR$/models/GeneratedI8O2Seed68.ttmodel.xmi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="346">
+          <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fulib/tables/FulibTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="146" column="23" lean-forward="true" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#707#708#0" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fulib/FulibSolution.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/fulib/BasicScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="159" lean-forward="true" selection-start-line="128" selection-end-line="159" />
+        <state relative-caret-position="345">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

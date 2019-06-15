@@ -68,65 +68,6 @@ public class FulibTable
    }
 
 
-
-   public int sum ()
-   {
-      int result = 0;
-      for (ArrayList<Object> row : table)
-      {
-         result += (Integer) row.get(columnMap.get(columnName));
-      }
-      return result;
-   }
-
-
-   public int min ()
-   {
-      int result = Integer.MAX_VALUE;
-      for (ArrayList<Object> row : table)
-      {
-         int value =  (Integer) row.get(columnMap.get(columnName));
-         if (value < result)
-            result = value;
-      }
-      return result;
-   }
-
-
-   public int max ()
-   {
-      int result = Integer.MIN_VALUE;
-      for (ArrayList<Object> row : table)
-      {
-         int value =  (Integer) row.get(columnMap.get(columnName));
-         if (value > result)
-            result = value;
-      }
-      return result;
-   }
-
-
-   public int median ()
-   {
-      ArrayList< Integer > list = this.toList();
-      Collections.sort(list);
-      int index = list.size() / 2;
-      int result = list.get(index);
-      return result;
-   }
-
-
-   public ArrayList< Integer > toList()
-   {
-      ArrayList< Integer > result = new ArrayList<>();
-      for (ArrayList<Object> row : table)
-      {
-         int value =  (Integer) row.get(columnMap.get(columnName));
-         result.add(value);
-      }
-      return result;
-   }
-
    @Override
    public String toString()
    {
